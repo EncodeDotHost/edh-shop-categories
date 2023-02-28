@@ -1,0 +1,34 @@
+ul.edh-product-cats{
+  display: grid;
+  grid-template-columns: auto;
+  list-style: none;
+  clear: both;
+}
+@media (min-width: 768px) {
+  ul.edh-product-cats{
+    grid-template-columns: auto auto;
+  }
+}
+@media (min-width: 992px) {
+  ul.edh-product-cats{
+    grid-template-columns: auto auto auto;
+  }
+}
+@media (min-width: 1200px){
+  ul.edh-product-cats{
+    grid-template-columns: auto auto auto auto;
+  }
+}
+ul.edh-product-cats {
+  margin-left: 0;
+}
+ul.edh-product-cats li {
+  list-style: none;
+  margin-left: 0;
+  margin-bottom: 1.5em;
+  text-align: center;
+  position: relative;
+}
+ul.edh-product-cats li img {
+  margin: 0 auto; 
+}
