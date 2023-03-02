@@ -1,10 +1,10 @@
-=== Edh Woo Categories ===
-Contributors: nbwpuk
+=== EDH Woo Categories ===
+Contributors: encodedothost,nbwpuk
 Tags: woocommerce, categories
 Requires at least: 4.5
 Tested up to: 6.1.1
 Requires PHP: 5.6
-Stable tag: 0.1.0
+Stable tag: 0.1.1
 License: GPLv2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 
@@ -18,16 +18,43 @@ You can easily override this behaviour using CSS.
 
 == Installation ==
 
-1. Download a zipped version of the plugin from github
-1. Upload to WordPress via Plugins => Add New => Upload
-1. Activate the plugin through the 'Plugins' menu in WordPress
-1. Customise the CSS if needed
+= Using The WordPress Dashboard (Recommended) =
+
+1. Navigate to the 'Add New' in the plugins dashboard
+2. Search for 'EDH Woo Categories'
+3. Click 'Install Now'
+4. Activate the plugin on the Plugin dashboard
+
+= Uploading in WordPress Dashboard =
+
+1. Download the plugin from WordPress or Github
+2. Navigate to the 'Add New' in the plugins dashboard
+3. Navigate to the 'Upload' area
+4. Select `edh-woo-categories.zip` from your computer
+5. Click 'Install Now'
+6. Activate the plugin in the Plugin dashboard
+
+= Using FTP =
+
+1. Download `edh-woo-categories.zip`
+2. Extract the `plugin-name` directory to your computer
+3. Upload the `plugin-name` directory to the `/wp-content/plugins/` directory
+4. Activate the plugin in the Plugin dashboard
+
+== Frequently Asked Questions ==
+
+= Where are the settings? =
+There are no settings for this plugin. It simply outputs any sub-categories on a WooCommerce archive page prior to the product loop.
+
+= How can I customise the layout? =
+Using CSS you can customise the layout to your needs by targeting the "edh-product-cats" class in the Customizer
 
 == Screenshots ==
 
 1. Screenshot of the output on desktop.
 
 == Changelog ==
-
+= 0.1.1 =
+Updated README to add FAQ's and How to Install
 = 0.1.0 =
 * Initial version
