@@ -1,14 +1,14 @@
 <?php
 /**
- * Plugin Name:     Woo Categories
- * Description:     A simple plugin to separate products from categories on the shop page
+ * Plugin Name:     EDH Shop Categories
+ * Description:     A simple plugin to separate products from categories on the WooCommerce shop page
  * Author:          EncodeDotHost
  * Author URI:      https://encode.host
- * Text Domain:     edh-woo-categories
+ * Text Domain:     edh-shop-categories
  * Domain Path:     /languages
  * Version:         0.1.0
  *
- * @package         Edh_Woo_Categories
+ * @package         EDH_Shop_Categories
 */
 
 defined( 'ABSPATH' ) or die( 'No direct access please!' );

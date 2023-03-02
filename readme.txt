@@ -1,4 +1,4 @@
-=== EDH Woo Categories ===
+=== EDH Shop Categories ===
 Contributors: encodedothost,nbwpuk
 Tags: woocommerce, categories
 Requires at least: 4.5
@@ -21,7 +21,7 @@ You can easily override this behaviour using CSS.
 = Using The WordPress Dashboard (Recommended) =
 
 1. Navigate to the 'Add New' in the plugins dashboard
-2. Search for 'EDH Woo Categories'
+2. Search for 'EDH Shop Categories'
 3. Click 'Install Now'
 4. Activate the plugin on the Plugin dashboard
 
@@ -30,13 +30,13 @@ You can easily override this behaviour using CSS.
 1. Download the plugin from WordPress or Github
 2. Navigate to the 'Add New' in the plugins dashboard
 3. Navigate to the 'Upload' area
-4. Select `edh-woo-categories.zip` from your computer
+4. Select `edh-shop-categories.zip` from your computer
 5. Click 'Install Now'
 6. Activate the plugin in the Plugin dashboard
 
 = Using FTP =
 
-1. Download `edh-woo-categories.zip`
+1. Download `edh-shop-categories.zip`
 2. Extract the `plugin-name` directory to your computer
 3. Upload the `plugin-name` directory to the `/wp-content/plugins/` directory
 4. Activate the plugin in the Plugin dashboard
