@@ -54,6 +54,8 @@ Using CSS you can customise the layout to your needs by targeting the "edh-produ
 1. Screenshot of the output on desktop.
 
 == Changelog ==
+= 1.0.0 =
+Added icon and banner and Escaping Data
 = 0.1.1 =
 Updated README to add FAQ's and How to Install
 = 0.1.0 =

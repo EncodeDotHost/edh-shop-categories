@@ -6,7 +6,7 @@
  * Author URI:      https://encode.host
  * Text Domain:     edh-shop-categories
  * Domain Path:     /languages
- * Version:         0.1.0
+ * Version:         1.0.0
  *
  * @package         EDH_Shop_Categories
 */
@@ -61,7 +61,7 @@ function edh_custom_subcategories( $args = array() ) {
 		foreach ( $terms as $term ) {
 			echo '<li class="category">';
 			woocommerce_subcategory_thumbnail( $term );
-			echo '<h2><a href="' . esc_url( get_term_link( $term ) ) . '" class="' . $term->slug . '">' . $term->name . '</a></h2>';
+			echo '<h2><a href="' . esc_url( get_term_link( $term ) ) . '" class="' . esc_html($term->slug) . '">' . esc_html($term->name) . '</a></h2>';
 			echo '</li>';
 		}
 		echo $args['after'];
