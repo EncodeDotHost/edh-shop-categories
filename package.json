@@ -1,9 +1,9 @@
 
 {
-  "name": "edh-woo-categories",
-  "version": "0.1.0",
+  "name": "edh-shop-categories",
+  "version": "1.1.0",
   "main": "Gruntfile.js",
-  "author": "YOUR NAME HERE",
+  "author": "EncodeDotHost",
   "scripts" : {
     "start" : "grunt default" ,
     "readme" : "grunt readme",

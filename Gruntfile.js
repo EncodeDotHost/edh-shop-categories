@@ -9,7 +9,7 @@ module.exports = function( grunt ) {
 
 		addtextdomain: {
 			options: {
-				textdomain: 'edh-woo-categories',
+				textdomain: 'edh-shop-categories',
 			},
 			update_all_domains: {
 				options: {
@@ -32,8 +32,8 @@ module.exports = function( grunt ) {
 				options: {
 					domainPath: '/languages',
 					exclude: [ '\.git/*', 'bin/*', 'node_modules/*', 'tests/*' ],
-					mainFile: 'edh-woo-categories.php',
-					potFilename: 'edh-woo-categories.pot',
+					mainFile: 'edh-shop-categories.php',
+					potFilename: 'edh-shop-categories.pot',
 					potHeaders: {
 						poedit: true,
 						'x-poedit-keywordslist': true

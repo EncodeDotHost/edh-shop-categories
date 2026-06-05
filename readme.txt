@@ -4,7 +4,7 @@ Tags: woocommerce, categories
 Requires at least: 4.5
 Tested up to: 6.1.1
 Requires PHP: 5.6
-Stable tag: 0.1.1
+Stable tag: 1.1.0
 License: GPLv2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 
@@ -37,8 +37,8 @@ You can easily override this behaviour using CSS.
 = Using FTP =
 
 1. Download `edh-shop-categories.zip`
-2. Extract the `plugin-name` directory to your computer
-3. Upload the `plugin-name` directory to the `/wp-content/plugins/` directory
+2. Extract the `edh-shop-categories` directory to your computer
+3. Upload the `edh-shop-categories` directory to the `/wp-content/plugins/` directory
 4. Activate the plugin in the Plugin dashboard
 
 == Frequently Asked Questions ==
@@ -54,6 +54,14 @@ Using CSS you can customise the layout to your needs by targeting the "edh-produ
 1. Screenshot of the output on desktop.
 
 == Changelog ==
+= 1.1.0 =
+* Fixed shop page top-level categories not loading correctly
+* Fixed stylesheet loading on non-WooCommerce pages
+* Fixed HTML attribute escaping (esc_attr)
+* Fixed get_terms() receiving display arguments
+* Replaced custom activation check with Requires Plugins header (WP 6.5+)
+* Modernised CSS grid (fr units, gap, merged rule blocks)
+* Fixed Gruntfile and package.json plugin name references
 = 1.0.0 =
 Added icon and banner and Escaping Data
 = 0.1.1 =
