@@ -6,7 +6,7 @@
  * Author URI:      https://encode.host
  * Text Domain:     edh-shop-categories
  * Domain Path:     /languages
- * Version:         1.1.0
+ * Version:         1.1.1
  * Requires Plugins: woocommerce
  *
  * @package         EDH_Shop_Categories
